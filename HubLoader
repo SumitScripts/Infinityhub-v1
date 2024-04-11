@@ -1,0 +1,99 @@
+wait(1.2)
+
+game.StarterGui:SetCore("SendNotification", {
+
+Title = "Script Loading..."; -- the title (ofc)
+
+Text = "Fractions Gui loading..."; -- what the text says (ofc)
+
+Icon = ""; -- the image if u want.
+
+Duration = 5; -- how long the notification should in secounds
+
+})
+
+wait(1.2)
+
+game.StarterGui:SetCore("SendNotification", {
+
+Title = "infinity Hub • V1"; -- the title (ofc)
+
+Text = "Coming Soon Updates"; -- what the text says (ofc)
+
+Icon = ""; -- the image if u want.
+
+Duration = 5; -- how long the notification should in secounds
+
+})
+
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/slf0Dev/Ocerium_Project/main/Library.lua"))()
+
+Window = Library.Main("Infinity Hub V1","LeftAlt") -- change "LeftAlt" to key that you want will hide gui
+
+local Tab = Window.NewTab("Credits/Updates")
+
+local Section = Tab.NewSection("Credits")
+
+local Button = Section.NewButton("Scripts By SumitScripts & DreamBoy",function()
+-- code here
+end)
+
+local Button = Section.NewButton("Some Scripts - Credits to Owner",function()
+-- code here
+end)
+
+local Section = Tab.NewSection("Updates")
+local Section = Tab.NewSection("Infinity Hub V1 - 13 April 2024")
+
+local Button = Section.NewButton("Added - Arsenal Script",function()
+-- code here
+end)
+
+local Button = Section.NewButton("Added - Funky Friday By Nadir",function()
+-- code here
+end)
+
+local Button = Section.NewButton("Added - Blade ball By Bedol Hub ",function()
+-- code here
+end)
+
+local Button = Section.NewButton("Added - Squid Game Red Light Green Light",function()
+-- code here
+end)
+
+local Button = Section.NewButton("Added - The Strongest battlegrounds",function()
+-- code here
+end)
+
+local Tab = Window.NewTab("Loader Scripts")
+
+local Section = Tab.NewSection("Choose Game to play")
+
+local Button = Section.NewButton("Arsenal",function()
+loadstring(game:HttpGet("https://pastefy.app/noAGt2s6/raw"))()
+end)
+
+local Button = Section.NewButton("The Strongest battlegrounds",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/HvQXjfyn"))()
+end)
+
+local Button = Section.NewButton("Red Light Green Light",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/9CG7EMiM"))()
+end)
+
+local Button = Section.NewButton("SCP 3008",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/4nqwLMYL"))()
+end)
+
+local Button = Section.NewButton("Blade Ball By Bedol Hub",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/nqxlOfc/Loaders/main/Blade%5FBall.lua'))() 
+end)
+
+local Button = Section.NewButton("funky friday by Nadir",function()
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+-- Funky friday - Nadir hub
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/RandomScript/main/FunkyFridayMobile"))()
+end)
